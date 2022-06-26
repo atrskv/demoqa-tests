@@ -1,6 +1,5 @@
 from selene.support.shared import browser
 from selene import be, have  # command
-from .helper import delete_all_the_useless_elements
 
 
 data = ['English', 'Computer Science', 'Social Studies']
@@ -42,3 +41,10 @@ def test_fill_all_the_fields():
     browser.element('tbody').should(have.text('sadcat.png'))
     browser.element('tbody').should(have.text('Saint Petersburg, ...'))
     browser.element('tbody').should(have.text('Rajasthan Jaiselmer'))
+
+
+def delete_all_the_useless_elements():
+    browser.execute_script('''
+    document.querySelector('footer').remove()
+    document.querySelector('#close-fixedban').remove()
+    ''')
