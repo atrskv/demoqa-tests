@@ -8,11 +8,10 @@ def browser_management():
     browser.config.browser_name = 'chrome'
     browser.config.hold_browser_open = False
     browser.config.timeout = 4
-    browser.config.window_width = 1200
-    browser.config.window_height = 1000
+    browser.config.window_width = 1366
+    browser.config.window_height = 768
 
-
-@pytest.fixture(scope='function', autouse=True)
-def modal_dialog_close():
     yield
-    browser.element('#closeLargeModal').click()
+
+    browser.quit()
+
