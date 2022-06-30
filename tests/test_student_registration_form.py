@@ -43,7 +43,7 @@ def test_register_a_student():
     subject.type('Social Studies').press_tab()
 
     avatar = browser.element('#uploadPicture')
-    avatar.send_keys(os.path.abspath('resources/sadcat.png'))
+    avatar.send_keys(os.path.abspath('../resources/sadcat.png'))
 
     browser.element('#currentAddress').type('Saint Petersburg, ...')
 
