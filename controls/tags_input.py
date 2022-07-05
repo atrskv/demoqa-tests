@@ -2,14 +2,16 @@ from selene.support.shared import browser
 
 
 class TagsInput:
-    def __init__(self):
-        self.element = ...
+    def __init__(self, element):
+        self.element = element
 
-    def add_subject_using_tab(self, subject_tag):
-        self.element.click()  # No we can type tag
-        self.element.type(subject_tag).press_enter()
-
-    def add_subject_using_click(self, subject_tag, subject_index):
+    def using_enter(self, beginning_of_a_word='Social'):
         self.element.click()
-        self.element.type(subject_tag)
+
+        # or user can press tab, but usually we use enter
+        self.element.type(beginning_of_a_word).press_enter()
+
+    def using_click(self, subject_name='Social Studies', subject_index='0'):
+        self.element.click()
+        self.element.type(subject_name)
         browser.element(f'#react-select-2-option-{subject_index}').click()
