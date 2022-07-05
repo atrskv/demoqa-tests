@@ -1,7 +1,7 @@
 from selene.support.shared import browser
 from selene import by, have, command
-from utils import delete_interrupt_elements
-import os
+from utils import delete_interrupt_elements, resource
+from controls import datepicker, tags_input, dropdown, table_modal_content
 
 
 def test_register_a_student():
@@ -17,7 +17,6 @@ def test_register_a_student():
     browser.element('#userEmail').type('trrskv@gmail.com')
 
     male = browser.element('[for="gender-radio-1"] ')
-
     '''
          I didn't use #gender-radio-1, 
          because "Other element would receive the click..."
@@ -28,40 +27,50 @@ def test_register_a_student():
     mobile_phone = browser.element('#userNumber').type('8999241221')
     mobile_phone.click()
 
-    calendar_open = browser.element('#dateOfBirthInput')
-    calendar_open.click()
-
-    browser.element('[class$=year-select] [value="1998"]').click()
-    browser.element('[class$=month-select] [value="9"]').click()
-    browser.element('.react-datepicker__day--031').click()
+    datepicker_using_keyboard = datepicker.DatePicker()
+    datepicker_using_keyboard.element = browser.element('#dateOfBirthInput')
+    datepicker_using_keyboard.input_the_date('31', 'Oct', '1998')
+    '''
+    OR:
+    datepicker_using_mouse = DatePicker()
+    datepicker_using_mouse.element = browser.element('#dateOfBirthInput')
+    datepicker_using_mouse.click_the_date('1998', '9', '31')
+    '''
 
     hobby_checkbox = browser.element(by.text('Sports'))
     hobby_checkbox.perform(command.js.scroll_into_view).click()
 
-    subject = browser.element('#subjectsInput')
-    subject.click()
-    subject.type('Social Studies').press_tab()
+    subject = tags_input.TagsInput()
+    subject.element = browser.element('#subjectsInput')
+    subject.add_subject_using_tab('Social')
+    '''
+    OR:
+    add_subject = TagsInput()
+    add_subject.element = browser.element('#subjectsInput')
+    add_subject.add_subject_using_click('Social', '0')
+    '''
 
     avatar = browser.element('#uploadPicture')
-    avatar.send_keys(os.path.abspath('../resources/sadcat.png'))
+    avatar.send_keys(resource('sadcat.png'))
 
     browser.element('#currentAddress').type('Saint Petersburg, ...')
 
-    state_dropdown = browser.element('#react-select-3-input')
-    state_dropdown.type('Rajasthan').press_tab()
+    state_dropdown = dropdown.StateDropdown()
+    state_dropdown.select_state_using_click('3')
 
-    city_dropdown = browser.element('#react-select-4-input')
-    city_dropdown.type('Jaiselmer').press_tab()
+    city_dropdown = dropdown.CityDropdown()
+    city_dropdown.select_city_using_click('1')
 
     browser.element('#submit').perform(command.js.click)
-
     '''
     I can't click using browser.element('#submit').click() :(
     '''
 
     # THEN
-    browser.element('.modal-content').all('tr').should(have.exact_texts
-        ('Label Values',
+    table = table_modal_content.Table()
+
+    table.rows = browser.element('.modal-content').all('tr')
+    table.rows.should(have.exact_texts('Label Values',
          'Student Name Aleksei Torsukov',
          'Student Email trrskv@gmail.com',
          'Gender Male',
@@ -72,7 +81,3 @@ def test_register_a_student():
          'Picture sadcat.png',
          'Address Saint Petersburg, ...',
          'State and City Rajasthan Jaiselmer'))
-
-    '''
-    OR we can use f-strings with variables, but I used variables only for selectors readability 
-    '''
