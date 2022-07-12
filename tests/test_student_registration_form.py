@@ -1,7 +1,7 @@
 from selene.support.shared import browser
 from selene import by, have, command
 from utils import delete_interrupt_elements, resource
-from controls import datepicker, tags_input, dropdown, modal_content
+from demoqa_tests.controls import datepicker, tags_input, dropdown, modal_content
 
 
 def test_register_a_student():
@@ -24,22 +24,24 @@ def test_register_a_student():
     mobile_phone.click()
 
     calendar = datepicker.DatePicker(browser.element('#dateOfBirthInput'))
-    calendar.using_enter('Oct', '31', '1998')
+    calendar.set_by_click('31', '9', '1998')
+
     '''
     OR:
     calendar = datepicker.DatePicker(browser.element('#dateOfBirthInput'))
-    calendar.using_click('1998', '9', '31')
+    calendar.set_by_enter('31', 'Oct', '1998')
     '''
 
     hobby_checkbox = browser.element(by.text('Sports'))
     hobby_checkbox.perform(command.js.scroll_into_view).click()
 
     subject = tags_input.TagsInput(browser.element('#subjectsInput'))
-    subject.using_enter('Histo')  # History
+    subject.set_by_click('History')
+
     '''
     OR:
     subject = tags_input.TagsInput(browser.element('#subjectsInput'))
-    subject.using_click('Social Studies', '0')  # subject and index
+    subject.set_by_enter(from_='His')
     '''
 
     avatar = browser.element('#uploadPicture')
@@ -48,25 +50,23 @@ def test_register_a_student():
     browser.element('#currentAddress').type('Saint Petersburg, ...')
 
     state = dropdown.Dropdown(browser.element('#state'))
-    state.using_click('#react-select-3-option-3')
+    state.set_by_click('#react-select-3-option-3')
+
     '''
-    OR:
     state = dropdown.Dropdown(browser.element('#react-select-3-input'))
-    state.using_enter('Haryana')
+    state.set_by_enter('Haryana')
     '''
 
     city = dropdown.Dropdown(browser.element('#city'))
-    city.using_click('#react-select-4-option-1')
+    city.set_by_click('#react-select-4-option-1')
+
     '''
     OR:
     city = dropdown.Dropdown(browser.element('#react-select-4-input'))
-    city.using_enter('Karnal')
+    city.set_by_enter('Karnal')
     '''
 
     browser.element('#submit').perform(command.js.click)
-    '''
-    I can't click using browser.element('#submit').click() :(
-    '''
 
     # THEN
     table = modal_content.Table(browser.element('.modal-content').all('tr'))

@@ -18,5 +18,5 @@ def resource(path):
         Path(demoqa_tests.__file__)
         .parent
         .parent
-        .joinpath(f'resources/{path}')
+        .joinpath(f'demoqa_tests/resources/{path}')
     )
