@@ -50,6 +50,6 @@ class User:
     subjects = Subjects.history, Subjects.chemistry
     avatar = 'sadcat.png'
     hobbies = Hobbies.sports
-    address = 'Address Saint Petersburg, ...'
+    address = 'Saint Petersburg, ...'
     state = States.rajastan.value
     city = Cities.jaiselmer.value

@@ -51,6 +51,6 @@ def test_register_a_student():
         'Subjects History, Chemistry',
         'Hobbies Sports',
         'Picture sadcat.png',
-        'Address Address Saint Petersburg, ...',
+        'Address Saint Petersburg, ...',
         'State and City Rajasthan Jaiselmer')
     )
