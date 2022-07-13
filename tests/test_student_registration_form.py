@@ -38,6 +38,7 @@ def test_register_a_student():
         .submit()
       )
 
+    # THEN
     (
         app.results
         .should_have_rows_with_exact_texts(
