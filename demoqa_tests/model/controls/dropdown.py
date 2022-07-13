@@ -9,7 +9,9 @@ class Dropdown:
 
     def set_by_enter(self, locality='Haryana'):
         self.element.type(locality).press_enter()
+        return self
 
     def set_by_click(self, selector='#react-select-3-option-0'):
          self.element.click()
          browser.element(selector).perform(command.js.click)
+         return self

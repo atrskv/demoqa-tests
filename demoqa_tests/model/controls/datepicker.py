@@ -12,9 +12,11 @@ class DatePicker:
         browser.element(f'[class$=year-select] [value="{year}"]').click()
         browser.element(f'[class$=month-select] [value="{month_index}"]').click()
         browser.element(f'.react-datepicker__day--0{day}').click()
+        return self
 
     def set_by_enter(self, day='01', month='Jan', year='1998'):
         self.element.click()
+
 
         browser.execute_script(
             '''
@@ -24,3 +26,4 @@ class DatePicker:
 
         self.element.type(f'{month} {day} {year}')
         self.element.press_enter()
+        return self

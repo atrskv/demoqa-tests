@@ -5,11 +5,11 @@ class TagsInput:
     def __init__(self, element):
         self.element = element
 
-    def set_by_enter(self, *, from_='Chem', to='Chemistry'):
+    def set_by_enter(self, values, to='Chemistry'):
         self.element.click()
-
-        # or user can press tab, but usually we use enter
-        self.element.type(from_).press_enter()
+        for value in values:
+            self.element.type(value).press_enter()
+        return self
 
     def set_by_click(self, subject_name, subject_index: str = '0'):
         self.element.click()
