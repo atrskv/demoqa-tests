@@ -1,4 +1,4 @@
-from demoqa_tests.data import User, Gender
+from demoqa_tests.data import User, Gender, States, Cities, Subjects, Months
 from demoqa_tests.model import app
 from utils import delete_interrupt_elements
 
@@ -21,20 +21,20 @@ def test_register_a_student():
         .set_name(student.name)
         .set_lastname(student.lastname)
         .set_email(student.email)
-        .set_gender(Gender.male.value)
+        .set_gender(Gender.Male.value)
         .set_phone(student.phone)
         .set_date_of_birth
         (
             student.birthday_day,
-            student.birthday_month,
+            Months.October.value,
             student.birthday_year
         )
         .set_hobby(student.hobbies)
         .set_subjects(student.subjects)
         .set_avatar(student.avatar)
         .set_adress(student.address)
-        .set_state(student.state)
-        .set_city(student.city)
+        .set_state(States.NCR.value)
+        .set_city(Cities.Noida.value)
         .submit()
       )
 
@@ -42,15 +42,15 @@ def test_register_a_student():
     (
         app.results
         .should_have_rows_with_exact_texts(
-                'Label Values',
-        'Student Name Aleksei Torsukov',
-        'Student Email trrskv@gmail.com',
-        'Gender Male',
-        'Mobile 8999241221',
-        'Date of Birth 31 October,1998',
-        'Subjects History, Chemistry',
-        'Hobbies Sports',
-        'Picture sadcat.png',
-        'Address Saint Petersburg, ...',
-        'State and City Rajasthan Jaiselmer')
+                        'Label Values',
+        f'Student Name {student.name} {student.lastname}',
+        f'Student Email {student.email}',
+        f'Gender {Gender.Male.name}',
+        f'Mobile {student.phone}',
+        f'Date of Birth {student.birthday_day} {Months.October.name},{student.birthday_year}',
+        f'Subjects {Subjects.history}, {Subjects.chemistry}',
+        f'Hobbies {student.hobbies}',
+        f'Picture {student.avatar}',
+        f'Address {student.address}',
+        f'State and City {States.NCR.name} {Cities.Noida.name}')
     )

@@ -4,16 +4,27 @@ from enum import Enum
 
 @dataclass
 class States(Enum):
-    ncr = '0'
-    uttar_pradesh = '1'
-    haryana = '2'
-    rajastan = '3'
+    NCR = '0'
+    Uttar_Pradesh = '1'
+    Haryana = '2'
+    Rajastan = '3'
 
 
 @dataclass
 class Cities(Enum):
-    jaipyr = '0'
-    jaiselmer = '1'
+    Delhi = '0'
+    Gurgaon = '1'
+    Noida = '2'
+
+    Agra = '0'
+    Lucknow = '1'
+    Merrut = '2'
+
+    Karnal = '0'
+    Panipat = '1'
+
+    Jaipur = '0'
+    Jaiselmer = '1'
 
 
 @dataclass
@@ -32,9 +43,9 @@ class Hobbies:
 
 @dataclass
 class Gender(Enum):
-    male = '1'
-    female = '2'
-    other = '3'
+    Male = '1'
+    Female = '2'
+    Other = '3'
 
 
 @dataclass
@@ -42,7 +53,7 @@ class User:
     name: str = 'Aleksei'
     lastname: str = 'Torsukov'
     email: str = 'trrskv@gmail.com'
-    gender = Gender.male.value
+    gender = Gender.Male.value
     phone: str = '8999241221'
     birthday_day = '31'
     birthday_year = '1998'
@@ -51,5 +62,17 @@ class User:
     avatar = 'sadcat.png'
     hobbies = Hobbies.sports
     address = 'Saint Petersburg, ...'
-    state = States.rajastan.value
-    city = Cities.jaiselmer.value
+
+class Months(Enum):
+        January = '0'
+        February = '1'
+        March = '2'
+        April = '3'
+        May = '4'
+        June = '5'
+        July = '6'
+        August = '7'
+        September = '8'
+        October = '9'
+        November = '10'
+        December = '11'
