@@ -32,6 +32,9 @@ class Subjects:
     history = 'History'
     social_studies = 'Social Studies'
     chemistry = 'Chemistry'
+    hindi = 'Hindi'
+    english = 'English'
+    computer_science = 'Computer Science'
 
 
 @dataclass
@@ -47,6 +50,21 @@ class Gender(Enum):
     Female = '2'
     Other = '3'
 
+@dataclass
+class Months(Enum):
+    January = '0'
+    February = '1'
+    March = '2'
+    April = '3'
+    May = '4'
+    June = '5'
+    July = '6'
+    August = '7'
+    September = '8'
+    October = '9'
+    November = '10'
+    December = '11'
+
 
 @dataclass
 class User:
@@ -57,22 +75,7 @@ class User:
     phone: str = '8999241221'
     birthday_day = '31'
     birthday_year = '1998'
-    birthday_month = '9'
+    birthday_month = Months.October
     subjects = Subjects.history, Subjects.chemistry
     avatar = 'sadcat.png'
-    hobbies = Hobbies.sports
     address = 'Saint Petersburg, ...'
-
-class Months(Enum):
-        January = '0'
-        February = '1'
-        March = '2'
-        April = '3'
-        May = '4'
-        June = '5'
-        July = '6'
-        August = '7'
-        September = '8'
-        October = '9'
-        November = '10'
-        December = '11'

@@ -37,8 +37,9 @@ class StudentRegistrationForm:
         DatePicker(browser.element('#dateOfBirthInput')).set_by_click(day, month_index, year)
         return self
 
-    def set_hobby(self, value):
-        browser.element(by.text(value)).perform(command.js.scroll_into_view).click()
+    def set_hobby(self, *values):
+        for value in values:
+            browser.element(by.text(value)).perform(command.js.scroll_into_view).click()
         return self
 
     def set_subjects(self, *values):

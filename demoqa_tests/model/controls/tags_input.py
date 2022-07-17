@@ -5,7 +5,7 @@ class TagsInput:
     def __init__(self, element):
         self.element = element
 
-    def set_by_enter(self, values, to='Chemistry'):
+    def set_by_enter(self, *values, to='Chemistry'):
         self.element.click()
         for value in values:
             self.element.type(value).press_enter()
