@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.models="http:///com/ibm/btools/bom/model/models.ecore"
+    xmlns:com.ibm.btools.bom.model.processes.activities="http:///com/ibm/btools/bom/model/processes/activities.ecore"
+    xmlns:com.ibm.btools.bom.model.processes.humantasks="http:///com/ibm/btools/bom/model/processes/humantasks.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735671"/>
+  <com.ibm.btools.bom.model.models:ProcessModel xmi:id="FID-00010-dc20d7888ce5c2c9a73c6b49e36f05b2"
+      uid="FID-00010-dc20d7888ce5c2c9a73c6b49e36f05b2" name="Processes">
+    <ownedComment xmi:id="BLM-f57ca7fc1f6e4c32d31fb98c65596fbc" uid="BLM-f57ca7fc1f6e4c32d31fb98c65596fbc"
+        body=""/>
+    <owningPackage href="RID-00001-f4dc855680a05a68b4987aef1c3041bf.xmi#FID-00001-2bac3ce5bb350c272c2366c37a220248"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.processes.humantasks:Form" href="BLM-09f3727c9dd8c10c8747aa5c22651eaf.xmi#BLM-0aa36b91318267126f02299fdd5ef1b9"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.processes.activities:Activity"
+        href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+  </com.ibm.btools.bom.model.models:ProcessModel>
+</xmi:XMI>

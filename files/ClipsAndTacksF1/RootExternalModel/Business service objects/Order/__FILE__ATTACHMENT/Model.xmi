@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.bom.model.artifacts="http:///com/ibm/btools/bom/model/artifacts.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1202852462437"/>
+  <com.ibm.btools.bom.model.artifacts:Class xmi:id="BLM-171147c15bbd153dfc0f920f12373690"
+      uid="BLM-171147c15bbd153dfc0f920f12373690" name="__FILE__ATTACHMENT" aspect="fileAttachment">
+    <ownedComment xmi:id="BLM-0e2d98c741669180eeeee9afd16e1ebf" uid="BLM-0e2d98c741669180eeeee9afd16e1ebf"
+        body="Business Service Object Definition"/>
+    <owningPackage href="BLM-b5ea62106a940e5190db2fb863c3ffcb.xmi#BLM-509b014f20302e79192f8ba996818271"/>
+  </com.ibm.btools.bom.model.artifacts:Class>
+</xmi:XMI>

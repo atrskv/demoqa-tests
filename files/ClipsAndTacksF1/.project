@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ClipsAndTacksF1</name>
+	<comment></comment>
+	<projects>
+		<project>Predefined elements (WebSphere Business Modeler)</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.ibm.btools.cef.model.filemanager.CefNature</nature>
+		<nature>com.ibm.btools.blm.model.blmfilemanager.BLMTNature</nature>
+		<nature>com.ibm.btools.sim.model.simfilemanager.SIMTNature</nature>
+	</natures>
+</projectDescription>

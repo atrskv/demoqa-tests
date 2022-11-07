@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.artifacts="http:///com/ibm/btools/bom/model/artifacts.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1202918098843"/>
+  <com.ibm.btools.bom.model.artifacts:Class xmi:id="BLM-7e664b8581fa2518a8f19ec3978fade8"
+      uid="BLM-7e664b8581fa2518a8f19ec3978fade8" name="Notification">
+    <ownedComment xmi:id="BLM-f83e108dddf9811240bc49883e54936c" uid="BLM-f83e108dddf9811240bc49883e54936c"
+        body=""/>
+    <owningPackage href="RID-00008-0290d915dfa4fc4fa363c765cd136134.xmi#FID-00008-75c489558e18349cf6c2aeec8407acf6"/>
+    <ownedAttribute xmi:id="BLM-e4f814c0a01f4ef317e5586dcdde8a4d" uid="BLM-e4f814c0a01f4ef317e5586dcdde8a4d"
+        name="email" isUnique="false">
+      <type xsi:type="com.ibm.btools.bom.model.artifacts:PrimitiveType" href="RID-00000000000000000000000000000203.xmi#FID-00000000000000000000000000000203"/>
+      <upperBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-8280483659954a8fb03c9565a75efe9b"
+          uid="BLM-8280483659954a8fb03c9565a75efe9b" value="1"/>
+      <lowerBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-2c88a673fd7cada66a48c186889f27c9"
+          uid="BLM-2c88a673fd7cada66a48c186889f27c9" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="BLM-03adf16310104102ec2780159ef212c6" uid="BLM-03adf16310104102ec2780159ef212c6"
+        name="text" isUnique="false">
+      <type xsi:type="com.ibm.btools.bom.model.artifacts:PrimitiveType" href="RID-00000000000000000000000000000203.xmi#FID-00000000000000000000000000000203"/>
+      <upperBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-46cf9b88fdfbfbc13e4b60e8f4d249c4"
+          uid="BLM-46cf9b88fdfbfbc13e4b60e8f4d249c4" value="1"/>
+      <lowerBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-1a0fc929bb8edc7a0e2cf65590304680"
+          uid="BLM-1a0fc929bb8edc7a0e2cf65590304680" value="1"/>
+    </ownedAttribute>
+  </com.ibm.btools.bom.model.artifacts:Class>
+</xmi:XMI>

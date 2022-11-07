@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.bom.model.models="http:///com/ibm/btools/bom/model/models.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735546"/>
+  <com.ibm.btools.bom.model.models:OrganizationModel xmi:id="FID-00014-6c53c901871ba1011d8b97683f39ce21"
+      uid="FID-00014-6c53c901871ba1011d8b97683f39ce21" name="Classifiers" aspect="categorycatalog">
+    <owningPackage href="RID-00013-85b3790da3a2d1aea1ec72df52edc083.xmi#FID-00013-1ed090982699155ac38450addd47d8ac"/>
+  </com.ibm.btools.bom.model.models:OrganizationModel>
+</xmi:XMI>

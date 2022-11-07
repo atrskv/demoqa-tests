@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.externalmodels="http:///com/ibm/btools/bom/model/externalmodels.ecore"
+    xmlns:com.ibm.btools.bom.model.models="http:///com/ibm/btools/bom/model/models.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735781"/>
+  <com.ibm.btools.bom.model.models:ExternalModel xmi:id="FID-00024-e137cf3b37d92fb78c8505f4f58c1449"
+      uid="FID-00024-e137cf3b37d92fb78c8505f4f58c1449" name="Business service objects">
+    <ownedComment xmi:id="BLM-2ea9be946bce810a7eeb1fca1127d5a8" uid="BLM-2ea9be946bce810a7eeb1fca1127d5a8"
+        body=""/>
+    <owningPackage href="RID-00023-4ed7993e12e56f6e83effa8e7ffb4090.xmi#FID-00023-10dc167c1fd1bbdec9ef409af6e29b55"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.externalmodels:ExternalSchema"
+        href="BLM-b5ea62106a940e5190db2fb863c3ffcb.xmi#BLM-509b014f20302e79192f8ba996818271"/>
+  </com.ibm.btools.bom.model.models:ExternalModel>
+</xmi:XMI>

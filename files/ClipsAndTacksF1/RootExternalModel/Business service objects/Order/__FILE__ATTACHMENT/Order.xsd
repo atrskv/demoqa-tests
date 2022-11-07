@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:clips="http://www.ibm.com/clips" targetNamespace="http://www.ibm.com/clips" xforms:id="Order">
+                  <complexType name="CustomerRecord">
+                     <sequence>
+                        <element maxOccurs="1" minOccurs="1" name="CustomerNumber" type="integer"/>
+                        <element maxOccurs="1" minOccurs="1" name="CompanyName" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="ContactFirstName" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="ContactLastName" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="StreetAddress" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="City" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="Country" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="PostalCode" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="Email" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="Rating" type="integer"/>
+                        <element maxOccurs="1" minOccurs="1" name="AvailableCredit" type="double"/>
+                     </sequence>
+                  </complexType>
+                  <complexType name="OrderItem">
+                     <sequence>
+                        <element maxOccurs="1" minOccurs="1" name="ProductName" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="ProductNumber" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="Price" type="double"/>
+                        <element maxOccurs="1" minOccurs="1" name="Description" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="Quantity" type="integer"/>
+                        <element maxOccurs="1" minOccurs="1" name="ItemPrice" type="double"/>
+                     </sequence>
+                  </complexType>
+                  <complexType name="OrderProcessingData">
+                     <sequence>
+                        <element maxOccurs="1" minOccurs="1" name="automaticApproval" type="boolean"/>
+                     </sequence>
+                  </complexType>
+                  <complexType name="Order">
+                     <sequence>
+                        <element maxOccurs="1" minOccurs="1" name="Customer" type="clips:CustomerRecord"/>
+                        <element maxOccurs="1" minOccurs="1" name="TotalPrice" type="double"/>
+                        <element maxOccurs="1" minOccurs="1" name="OrderNumber" type="integer"/>
+                        <element maxOccurs="1" minOccurs="1" name="OrderStatus" type="string"/>
+                        <element maxOccurs="1" minOccurs="1" name="OrderProcessingPreference" type="clips:OrderProcessingData"/>
+                        <element maxOccurs="1" minOccurs="1" name="PackingSlipNumber" type="string"/>
+                        <element maxOccurs="unbounded" minOccurs="1" name="OrderItems" type="clips:OrderItem"/>
+                     </sequence>
+                  </complexType>
+                  <element name="OrderForm" type="clips:Order"/>
+               </schema>

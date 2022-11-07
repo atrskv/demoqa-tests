@@ -1,2 +1,4 @@
 selene>=2.0.0b4
 pytest==7.1.2
+requests
+PyPDF2==2.11.1

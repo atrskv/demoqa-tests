@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.artifacts="http:///com/ibm/btools/bom/model/artifacts.ecore"
+    xmlns:com.ibm.btools.bom.model.processes.humantasks="http:///com/ibm/btools/bom/model/processes/humantasks.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1202852464531"/>
+  <com.ibm.btools.bom.model.processes.humantasks:Form xmi:id="BLM-0aa36b91318267126f02299fdd5ef1b9"
+      uid="BLM-0aa36b91318267126f02299fdd5ef1b9" name="Order">
+    <ownedComment xmi:id="BLM-b4ecf14c0df61a3ac00c3255627d6a51" uid="BLM-b4ecf14c0df61a3ac00c3255627d6a51"
+        body=""/>
+    <owningPackage href="RID-00010-0d885dbb8b2e496438a9b406a29f2a63.xmi#FID-00010-dc20d7888ce5c2c9a73c6b49e36f05b2"/>
+    <data xmi:id="BLM-6eb115cf49b44397ead1b124569bc95b" uid="BLM-6eb115cf49b44397ead1b124569bc95b"
+        name="Order">
+      <type xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-ee743b8e849184cbc28b2c6695548b00.xmi#BLM-8d2d55bc53e42216629384109de99ae3"/>
+    </data>
+  </com.ibm.btools.bom.model.processes.humantasks:Form>
+</xmi:XMI>

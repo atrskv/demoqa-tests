@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore"
+    xmlns:com.ibm.btools.querymanager.query.querymodel="http:///com/ibm/btools/querymanager/query/querymodel.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735937"/>
+  <com.ibm.btools.querymanager.query.querymodel:QueryModel xmi:id="RootQueryModelID-198559dbcbfbbdb2117c79b10aecfdad"
+      uid="RootQueryModelID-198559dbcbfbbdb2117c79b10aecfdad" name="RootQueryModel">
+    <childModels href="QRY-AdvancedResourceID-d75c494367456375fe4d43f03fcbac48.xmi#QRY-AdvancedID-21072de117dd71085b95589bc580d8b2"/>
+    <childModels href="QRY-IntermediateResourceID-bc7fc3e7fc0a6e438ab61a8484a94a87.xmi#QRY-IntermediateID-70d4f3ac8ba1f643f2f843a3019e882d"/>
+    <childModels href="QRY-BasicResourceID-f0567f41bb3148a2fea7242014ab8417.xmi#QRY-BasicID-b2b5d809f16ba2dd832360aa4b0acd4f"/>
+  </com.ibm.btools.querymanager.query.querymodel:QueryModel>
+</xmi:XMI>

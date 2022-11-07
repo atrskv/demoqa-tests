@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore"
+    xmlns:com.ibm.btools.report.model="http:///com/ibm/btools/report/model.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735953"/>
+  <com.ibm.btools.report.model:ReportModel xmi:id="RootReportModelID-ea7848661b0413de29f79ed6a9b6f5b6"
+      id="RootReportModelID-ea7848661b0413de29f79ed6a9b6f5b6" name="RootReportModel">
+    <children href="Reports_Catalog_Resource_ID-d1d7d76e58b09e72afbb4da62ab65980.xmi#Reports_Catalog_ID-bc3aa45dee58cf5e11c93963cdda0eca"/>
+  </com.ibm.btools.report.model:ReportModel>
+</xmi:XMI>

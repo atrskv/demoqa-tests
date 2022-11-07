@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.artifacts="http:///com/ibm/btools/bom/model/artifacts.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1202852464500"/>
+  <com.ibm.btools.bom.model.artifacts:Class xmi:id="BLM-0368c582e5490cdf3647b4723dd1352b"
+      uid="BLM-0368c582e5490cdf3647b4723dd1352b" name="OrderProcessingData" aspect="SchemaType">
+    <ownedComment xmi:id="BLM-da1d7e96f7acb20dd11739a6bf1d6e86" uid="BLM-da1d7e96f7acb20dd11739a6bf1d6e86"
+        body="Business Service Object Definition"/>
+    <owningPackage href="BLM-b5ea62106a940e5190db2fb863c3ffcb.xmi#BLM-509b014f20302e79192f8ba996818271"/>
+    <ownedAttribute xmi:id="BLM-ee1353a5f43517fac4800be7f731e99f" uid="BLM-ee1353a5f43517fac4800be7f731e99f"
+        name="automaticApproval">
+      <type xsi:type="com.ibm.btools.bom.model.artifacts:PrimitiveType" href="RID-00000000000000000000000000000202.xmi#FID-00000000000000000000000000000202"/>
+      <upperBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-06a75bf6884c04e970429b5bd3225e86"
+          uid="BLM-06a75bf6884c04e970429b5bd3225e86" value="1"/>
+      <lowerBound xsi:type="com.ibm.btools.bom.model.artifacts:LiteralInteger" xmi:id="BLM-3a10635abfb4d81045a42f2cd8dd1569"
+          uid="BLM-3a10635abfb4d81045a42f2cd8dd1569" value="1"/>
+    </ownedAttribute>
+  </com.ibm.btools.bom.model.artifacts:Class>
+</xmi:XMI>

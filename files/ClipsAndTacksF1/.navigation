@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation:NavigationProjectNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:navigation="http://navigation" id="ClipsAndTacksF1_id" label="ClipsAndTacksF1" overridingImageKey="" uid="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+  <libraryNode label="Library" uid="BLMNAV-283a5df44fc592f01c6c54f7abc7d1b2">
+    <dataCatalogsNode id="Data catalogs" label="Data catalogs" uid="BLMNAV-aa3df3a9ea98af7348bb9d6c4abd2712" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00002-62e7e1d7eb933b9ebf5c62520c973676"/>
+      <dataCatalogNodes id="DEFAULT_CATALOG" label="Business items" uid="BLMNAV-c4b2fbd7fed54f87e9b6370b5729ba07" bomUID="FID-00008-75c489558e18349cf6c2aeec8407acf6" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00008-0290d915dfa4fc4fa363c765cd136134"/>
+        <businessEntitiesNode label="Business items" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <businessEntityNodes id="Notification" label="Notification" uid="BLMNAV-616f38a62ce8ed2a2d2307a0f80aaeb7" bomUID="BLM-7e664b8581fa2518a8f19ec3978fade8" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+            <navigationURINodes uri="BLM-f81332ee047a7b876c58fa809dc0cbfe"/>
+          </businessEntityNodes>
+        </businessEntitiesNode>
+      </dataCatalogNodes>
+    </dataCatalogsNode>
+    <processCatalogsNodes id="Process catalogs" label="Process catalogs" uid="BLMNAV-004e10875d0504bbc4df9fd588dfe50f" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00001-f4dc855680a05a68b4987aef1c3041bf"/>
+      <processCatalogNodes id="DEFAULT_CATALOG" label="Processes" uid="BLMNAV-f5a887b6964e018b327967755895021a" bomUID="FID-00010-dc20d7888ce5c2c9a73c6b49e36f05b2" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00010-0d885dbb8b2e496438a9b406a29f2a63"/>
+        <processesNode label="Processes" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <processNodes id="OrderHandling (Future1)" label="OrderHandling (Future1)" uid="BLMNAV-f01c42ad61dece018f2e06cdd0058a97" bomUID="BLM-cb1be38c555a8999f1dfbee1f712219a" attribute4="PROCESS_DEFAULTS,PROCESS_EDITOR" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+            <navigationURINodes uri="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6"/>
+            <navigationURINodes uri="CEF-57a93f5e1c2a102cf7cf86a9b968c445"/>
+          </processNodes>
+        </processesNode>
+        <formsNode label="Forms" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <formNodes id="Order" label="Order" uid="BLMNAV-50edc2d2ab6b69477334a5ca465c2ca2" bomUID="BLM-0aa36b91318267126f02299fdd5ef1b9" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+            <navigationURINodes uri="BLM-09f3727c9dd8c10c8747aa5c22651eaf"/>
+          </formNodes>
+        </formsNode>
+      </processCatalogNodes>
+    </processCatalogsNodes>
+    <resourceCatalogsNode id="Resource catalogs" label="Resource catalogs" uid="BLMNAV-155346c5e3aee28771c500261800d9de" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00004-c436e392ccccc0f67eeeb3ba7fe4c869"/>
+      <resourceCatalogNodes id="DEFAULT_CATALOG" label="Resources" uid="BLMNAV-895ce34b1e04c6834232288371d3fbf1" bomUID="FID-00011-d2690dc58e899a7a5f1072bf28beaf01" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00011-231af1143fcd0634fc217ccafbc98d50"/>
+      </resourceCatalogNodes>
+    </resourceCatalogsNode>
+    <organizationCatalogsNode id="Organization catalogs" label="Organization catalogs" uid="BLMNAV-95b19159e4ec7030756006f51ebc0b93" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00003-db80a2cb8608df6f16d31ae2fc1f3ece"/>
+      <organizationCatalogNodes id="DEFAULT_CATALOG" label="Organizations" uid="BLMNAV-cb5d60ebe2ec69d305d723836298ac29" bomUID="FID-00009-301a5c8ec7d8e4c8fecddf6d83c77291" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00009-116259e15d67a131854a861e1123e189"/>
+      </organizationCatalogNodes>
+    </organizationCatalogsNode>
+    <reportsNode id="Report catalogs" label="Report catalogs" uid="BLMNAV-c11e4cb5f366640348f460a8b774b219" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RootReportModelResourceID-bc1b5f0e25ccfaa12841304860261a40"/>
+      <reportModelNodes id="DEFAULT_CATALOG" label="Reports" uid="BLMNAV-66856e9f3ffb83ce912568375b93bd9a" bomUID="" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="Reports_Catalog_Resource_ID-d1d7d76e58b09e72afbb4da62ab65980"/>
+      </reportModelNodes>
+      <queriesNode label="Queries" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="QRY-RootQueryModelResourceID-e32aa00da049303feaf624f14399aeca"/>
+        <queriesAdvancedNode label="Advanced profile" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <navigationURINode uri="QRY-AdvancedResourceID-d75c494367456375fe4d43f03fcbac48"/>
+        </queriesAdvancedNode>
+        <queriesIntermediateNode label="Intermediate profile" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <navigationURINode uri="QRY-IntermediateResourceID-bc7fc3e7fc0a6e438ab61a8484a94a87"/>
+        </queriesIntermediateNode>
+        <queriesBasicNode label="Basic profile" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <navigationURINode uri="QRY-BasicResourceID-f0567f41bb3148a2fea7242014ab8417"/>
+        </queriesBasicNode>
+      </queriesNode>
+    </reportsNode>
+    <navigationCategoryCatalogs id="Classifier catalogs" label="Classifier catalogs" uid="BLMNAV-a209f00a06fd843ad80e0a0134d257d3" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00013-85b3790da3a2d1aea1ec72df52edc083"/>
+      <navigationCategoryCatalog id="DEFAULT_CATALOG" label="Classifiers" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00014-99baca2698d5f2e01f4fda0370299ad4"/>
+      </navigationCategoryCatalog>
+    </navigationCategoryCatalogs>
+    <externalModelCatalogs id="Business service and service object catalogs" label="Business service and service object catalogs" uid="BLMNAV-50f1cc2f3161614e05ef000f0c53595c" bomUID="FID-00023-10dc167c1fd1bbdec9ef409af6e29b55" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+      <navigationURINode uri="RID-00023-4ed7993e12e56f6e83effa8e7ffb4090"/>
+      <externalServiceCatalogs id="Business service catalogs" label="Business service catalogs" uid="BLMNAV-fd9aa24284ef1c5dc72ec28210f2039c" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00023-4ed7993e12e56f6e83effa8e7ffb4090"/>
+        <externalServiceCatalog id="DEFAULT_CATALOG" label="Business services" uid="BLMNAV-0c3af674dd7a0ab60c41eb2b1b0455a2" bomUID="FID-00025-61ed551035727cf66e06082b4991fbd4" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <navigationURINode uri="RID-00025-e1e70c71a781130baffed4907ba6cd41"/>
+        </externalServiceCatalog>
+      </externalServiceCatalogs>
+      <boCatalogs id="Business service object catalogs" label="Business service object catalogs" uid="BLMNAV-49545814550ec90881ab72e707c92139" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+        <navigationURINode uri="RID-00023-4ed7993e12e56f6e83effa8e7ffb4090"/>
+        <boCatalog id="DEFAULT_CATALOG" label="Business service objects" uid="BLMNAV-a7798ac5275133ef10cd09e4abaf23f3" bomUID="FID-00024-e137cf3b37d92fb78c8505f4f58c1449" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+          <navigationURINode uri="RID-00024-efeb32150456b4e8784aa49f7e0f1f76"/>
+          <xsdFile id="XSD file" label="Order" uid="BLMNAV-c8e75b3a2cbc0305a31b3a3f5ae4e430" bomUID="BLM-509b014f20302e79192f8ba996818271" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+            <navigationURINode uri="BLM-b5ea62106a940e5190db2fb863c3ffcb"/>
+            <complexTypeDefinitionsNode label="Business service object definitions" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+              <complexTypeDefinitionNode id="Complex type definition 1" label="__FILE__ATTACHMENT" uid="BLMNAV-50c29b72141d34fc458b86e905782a73" bomUID="BLM-171147c15bbd153dfc0f920f12373690" attribute1="SchemaType_Private" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+                <navigationURINodes uri="BLM-c0dd92498d772ccf88dee7ff59f71f8f"/>
+              </complexTypeDefinitionNode>
+              <complexTypeDefinitionNode id="Complex type definition 1" label="CustomerRecord" uid="BLMNAV-bcfc0962361a729ab21312fcf57b0cbc" bomUID="BLM-077f08c5d93a5010ec2ed377e6e5d085" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+                <navigationURINodes uri="BLM-5b4be43834ad96021b5434904ca87316"/>
+              </complexTypeDefinitionNode>
+              <complexTypeDefinitionNode id="Complex type definition 1" label="Order" uid="BLMNAV-3cdfe62abec0b58f6b79e787bcfe6af0" bomUID="BLM-8d2d55bc53e42216629384109de99ae3" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+                <navigationURINodes uri="BLM-ee743b8e849184cbc28b2c6695548b00"/>
+              </complexTypeDefinitionNode>
+              <complexTypeDefinitionNode id="Complex type definition 1" label="OrderItem" uid="BLMNAV-a88a8efac38169281748a773b3a0d9b5" bomUID="BLM-865e99b6cf9ff41275513dd5cab1a077" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+                <navigationURINodes uri="BLM-8f7593d3d064ec2cb7c96efda98f708f"/>
+              </complexTypeDefinitionNode>
+              <complexTypeDefinitionNode id="Complex type definition 1" label="OrderProcessingData" uid="BLMNAV-9202c239631e4f5e8ab6a74a7bfb8247" bomUID="BLM-0368c582e5490cdf3647b4723dd1352b" projectNode="BLMNAV-904a6383846a4aa946cc1b882984fd6e">
+                <navigationURINodes uri="BLM-0584848ce282aa6f295d7055a485ec2a"/>
+              </complexTypeDefinitionNode>
+            </complexTypeDefinitionsNode>
+          </xsdFile>
+        </boCatalog>
+      </boCatalogs>
+    </externalModelCatalogs>
+  </libraryNode>
+  <businessGroupsNode label="Business groups" uid="BLMNAV-2cd943cff0a1223e6f971023a34d9257"/>
+</navigation:NavigationProjectNode>

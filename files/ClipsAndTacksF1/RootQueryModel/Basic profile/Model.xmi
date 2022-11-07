@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore"
+    xmlns:com.ibm.btools.querymanager.query.querymodel="http:///com/ibm/btools/querymanager/query/querymodel.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735937"/>
+  <com.ibm.btools.querymanager.query.querymodel:QueryModel xmi:id="QRY-BasicID-b2b5d809f16ba2dd832360aa4b0acd4f"
+      uid="QRY-BasicID-b2b5d809f16ba2dd832360aa4b0acd4f" name="Basic profile">
+    <parentModel href="QRY-RootQueryModelResourceID-e32aa00da049303feaf624f14399aeca.xmi#RootQueryModelID-198559dbcbfbbdb2117c79b10aecfdad"/>
+  </com.ibm.btools.querymanager.query.querymodel:QueryModel>
+</xmi:XMI>

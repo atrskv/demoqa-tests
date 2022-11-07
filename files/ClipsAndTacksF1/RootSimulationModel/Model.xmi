@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.btools.bom.model.models="http:///com/ibm/btools/bom/model/models.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506735687"/>
+  <com.ibm.btools.bom.model.models:SimulationModel xmi:id="FID-00007-94d8bae0c18421bb99a10866ab94d0ab"
+      uid="FID-00007-94d8bae0c18421bb99a10866ab94d0ab" name="RootSimulationModel"/>
+</xmi:XMI>

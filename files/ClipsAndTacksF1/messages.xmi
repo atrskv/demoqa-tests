@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.model.modelmanager.validation="http:///com/ibm/btools/model/modelmanager/validation.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1205506739234"/>
+  <com.ibm.btools.model.modelmanager.validation:ProjectMessageSet ownerObjectID="ClipsAndTacksF1"
+      projectName="ClipsAndTacksF1">
+    <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:RootMessageSet"
+        ownerObjectID="BLM-cb1be38c555a8999f1dfbee1f712219a">
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-81bdb0f16f9c48b4f279957394ea229c">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-81bdb0f16f9c48b4f279957394ea229c"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-f0454451e8bffdc24652750db8e6c2d3">
+        <messages id="ZXP100009E" featureID="0" text="Business rule &quot;Check Order Handling Policy for Automatic Approval&quot; in process &quot;OrderHandling (Future1)&quot; is not supported."
+            targetObjectName="Check Order Handling Policy for Automatic Approval">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-f0454451e8bffdc24652750db8e6c2d3"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-f19ae5079e4944970141ac00603549e8">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-f19ae5079e4944970141ac00603549e8"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-a0187b2934c9ba4d1ecae9b3031c55ed">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output:2&quot; is not supported."
+            targetObjectName="Output:2">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-a0187b2934c9ba4d1ecae9b3031c55ed"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-93681dca786a30a3c3213898541b394f">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-93681dca786a30a3c3213898541b394f"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-0f870515df3191271eee849b28b96c4a">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-0f870515df3191271eee849b28b96c4a"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-c3a0b170d1db203b76a869a232255165">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-c3a0b170d1db203b76a869a232255165"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-a79fa75e54f64f756e3f275206ed9f98">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-a79fa75e54f64f756e3f275206ed9f98"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-bf56cb0118811e1cf0520b7550262dc1">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output:2&quot; is not supported."
+            targetObjectName="Output:2">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-bf56cb0118811e1cf0520b7550262dc1"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-08c79dec44e9d69ae073c9d8d67e2227">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-08c79dec44e9d69ae073c9d8d67e2227"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-2cea74517a7b78c188df82960084fefe">
+        <messages id="ZXP118004E" featureID="3" text="The expression for element &quot;Yes&quot; refers to a modeling artifact that has an unsupported type. Supported types are Boolean, Date, DateTime, Decimal (single-precision), Integer, Text, and Time."
+            targetObjectName="Yes">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-2cea74517a7b78c188df82960084fefe"/>
+          <targetObjectOverride href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-2a1f2de269ad718ba3bc30ae3e231abe"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-8e80636b6dfec6261a5fd6da46127b68">
+        <messages id="ZXP118004E" featureID="3" text="The expression for element &quot;Yes&quot; refers to a modeling artifact that has an unsupported type. Supported types are Boolean, Date, DateTime, Decimal (single-precision), Integer, Text, and Time."
+            targetObjectName="Yes">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-8e80636b6dfec6261a5fd6da46127b68"/>
+          <targetObjectOverride href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-2a1f2de269ad718ba3bc30ae3e231abe"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-62ba806b8482ed4f838e3867d3375293">
+        <messages id="ZXP118004E" featureID="3" text="The expression for element &quot;No&quot; refers to a modeling artifact that has an unsupported type. Supported types are Boolean, Date, DateTime, Decimal (single-precision), Integer, Text, and Time."
+            targetObjectName="No">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-62ba806b8482ed4f838e3867d3375293"/>
+          <targetObjectOverride href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-3213849ce2287c3650240765990b2385"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-373c711d98ca55631a80b21fc1f095c1">
+        <messages id="ZXP118004E" featureID="3" text="The expression for element &quot;No&quot; refers to a modeling artifact that has an unsupported type. Supported types are Boolean, Date, DateTime, Decimal (single-precision), Integer, Text, and Time."
+            targetObjectName="No">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-373c711d98ca55631a80b21fc1f095c1"/>
+          <targetObjectOverride href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-3213849ce2287c3650240765990b2385"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-bd0fbdb2a207c9fb3449f2127d1740bf">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-bd0fbdb2a207c9fb3449f2127d1740bf"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-05f2f6c8c814198a406a0a9f42f54733">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-05f2f6c8c814198a406a0a9f42f54733"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-f64cbd0c4d9182ab00fb0cee133072d8">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input:2&quot; is not supported."
+            targetObjectName="Input:2">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-f64cbd0c4d9182ab00fb0cee133072d8"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-33f0a7c59332a02fb6a8c4845c5278d6">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Order&quot; is not supported."
+            targetObjectName="Order">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-33f0a7c59332a02fb6a8c4845c5278d6"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-bbd707118a2a701224ac51d9b3591c13">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Order&quot; is not supported."
+            targetObjectName="Order">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-bbd707118a2a701224ac51d9b3591c13"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-da0ee426588e0043841994dc3930d26f">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-da0ee426588e0043841994dc3930d26f"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-5e679512aee214e2f2e42a893c93dcb9">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output:2&quot; is not supported."
+            targetObjectName="Output:2">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-5e679512aee214e2f2e42a893c93dcb9"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-5b2793dc0fe63aa6db7a9feac2b8aaf3">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-5b2793dc0fe63aa6db7a9feac2b8aaf3"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-d39e13da214a72a6c346139b24f64190">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-d39e13da214a72a6c346139b24f64190"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-bc6deb94c68a86e42e7062cfb9d26dfd">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-bc6deb94c68a86e42e7062cfb9d26dfd"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-142f9268842a2733f78f93fdb4ee3334">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input:2&quot; is not supported."
+            targetObjectName="Input:2">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-142f9268842a2733f78f93fdb4ee3334"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-92771d3ce9db1525024b8ff8448c40e5">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Order&quot; is not supported."
+            targetObjectName="Order">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-92771d3ce9db1525024b8ff8448c40e5"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-1da462836995f9ef74969c8ef7a9b0f0">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Order&quot; is not supported."
+            targetObjectName="Order">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-1da462836995f9ef74969c8ef7a9b0f0"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-014ea062d6b1194f248472e50700f786">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-014ea062d6b1194f248472e50700f786"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-d61d16ce48776dd45c541a230fa066a6">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Output&quot; is not supported."
+            targetObjectName="Output">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-d61d16ce48776dd45c541a230fa066a6"/>
+        </messages>
+      </composedChildren>
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-277512034e0156bf42d9930413ce38e6">
+        <messages id="ZXP102502E" featureID="9" text="The type &quot;Order&quot; for element &quot;Input&quot; is not supported."
+            targetObjectName="Input">
+          <rootObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-cb1be38c555a8999f1dfbee1f712219a"/>
+          <targetObject href="BLM-2d32c196e9d6d1126fdde0a0fafa3ee6.xmi#BLM-277512034e0156bf42d9930413ce38e6"/>
+        </messages>
+      </composedChildren>
+    </composedChildren>
+    <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:RootMessageSet"
+        ownerObjectID="BLM-8d2d55bc53e42216629384109de99ae3">
+      <composedChildren xsi:type="com.ibm.btools.model.modelmanager.validation:TargetMessageSet"
+          ownerObjectID="BLM-ed55045cf75e08f4c7f71d82ad96a792">
+        <messages id="ZFL212005E" featureID="6" text="Unlimited maximum number of items needed property on attribute &quot;OrderItems&quot; is not supported."
+            targetObjectName="OrderItems">
+          <rootObject href="BLM-ee743b8e849184cbc28b2c6695548b00.xmi#BLM-8d2d55bc53e42216629384109de99ae3"/>
+          <targetObject href="BLM-ee743b8e849184cbc28b2c6695548b00.xmi#BLM-ed55045cf75e08f4c7f71d82ad96a792"/>
+        </messages>
+      </composedChildren>
+    </composedChildren>
+  </com.ibm.btools.model.modelmanager.validation:ProjectMessageSet>
+</xmi:XMI>

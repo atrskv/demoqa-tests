@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:com.ibm.btools.bom.model.artifacts="http:///com/ibm/btools/bom/model/artifacts.ecore"
+    xmlns:com.ibm.btools.bom.model.externalmodels="http:///com/ibm/btools/bom/model/externalmodels.ecore"
+    xmlns:com.ibm.btools.model.resourcemanager.resourceproperties="http:///com/ibm/btools/model/resourcemanager/resourceproperties.ecore">
+  <com.ibm.btools.model.resourcemanager.resourceproperties:ResourceProperties versionID="6.1.0.0"
+      lastModified="1203017582609"/>
+  <com.ibm.btools.bom.model.externalmodels:ExternalSchema xmi:id="BLM-509b014f20302e79192f8ba996818271"
+      uid="BLM-509b014f20302e79192f8ba996818271" name="Order" aspect="data" sourceType="fileSystem"
+      targetNamespace="http://www.ibm.com/clips" locationURL="file:/C:/Documents%20and%20Settings/Administrator/IBM/wbmodeler6.1/ClipsAndTacks1/_TEMP/Order/Order.xsd">
+    <ownedComment xmi:id="BLM-5a3181f9577a0824d7d8b7d47d49092c" uid="BLM-5a3181f9577a0824d7d8b7d47d49092c"
+        body="External model represents the xsd file"/>
+    <owningPackage href="RID-00024-efeb32150456b4e8784aa49f7e0f1f76.xmi#FID-00024-e137cf3b37d92fb78c8505f4f58c1449"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-5b4be43834ad96021b5434904ca87316.xmi#BLM-077f08c5d93a5010ec2ed377e6e5d085"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-ee743b8e849184cbc28b2c6695548b00.xmi#BLM-8d2d55bc53e42216629384109de99ae3"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-8f7593d3d064ec2cb7c96efda98f708f.xmi#BLM-865e99b6cf9ff41275513dd5cab1a077"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-0584848ce282aa6f295d7055a485ec2a.xmi#BLM-0368c582e5490cdf3647b4723dd1352b"/>
+    <ownedMember xsi:type="com.ibm.btools.bom.model.artifacts:Class" href="BLM-c0dd92498d772ccf88dee7ff59f71f8f.xmi#BLM-171147c15bbd153dfc0f920f12373690"/>
+  </com.ibm.btools.bom.model.externalmodels:ExternalSchema>
+</xmi:XMI>
