@@ -1,14 +1,14 @@
 import os
 import pytest
 import shutil
+from selene import Browser, Config
 
 
 @pytest.fixture()
-def create_and_delete_resources_directory():
+def browser():
+    browser = Browser(Config(driver))
 
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    os.mkdir(current_dir + '/resources')
-
-    yield
-
-    shutil.rmtree(current_dir + '/resources')
+    # driver = webdriver.Remote(
+    #     command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",
+    #     options=options
+    # )
