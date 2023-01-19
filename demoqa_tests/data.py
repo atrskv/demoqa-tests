@@ -68,8 +68,8 @@ class Months(Enum):
 
 @dataclass
 class User:
-    name: str = 'Aleksei'
-    lastname: str = 'Torsukov'
+    name: str = 'Anya'
+    lastname: str = 'Golubeva'
     email: str = 'trrskv@gmail.com'
     gender = Gender.Male.value
     phone: str = '8999241221'

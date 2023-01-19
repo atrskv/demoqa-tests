@@ -4,13 +4,13 @@ from demoqa_tests.model.controls.datepicker import DatePicker
 from demoqa_tests.model.controls.dropdown import Dropdown
 from demoqa_tests.model.controls.modal_content import Table
 from demoqa_tests.model.controls.tags_input import TagsInput
-from tests.utils import resource
+from utils.utils import resource
 
 
 class StudentRegistrationForm:
 
     def open(self):
-        browser.open('/automation-practice-form')
+        browser.open('https://demoqa.com/automation-practice-form')
         return self
 
     def set_name(self, value):

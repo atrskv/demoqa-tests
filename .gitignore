@@ -12,7 +12,6 @@ custom.png
 
 # allure
 allure-results/
-allure-report/
 
 # JetBrains
 .idea/

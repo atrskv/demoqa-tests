@@ -2,7 +2,7 @@ from selene.support.shared import browser
 
 
 def delete_interrupt_elements():
-    browser.execute_script('''
+    browser.driver.execute_script('''
     document.querySelector('.Advertisement-Section')
     .remove()
     '''
